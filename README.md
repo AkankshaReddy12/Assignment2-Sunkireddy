@@ -9,3 +9,11 @@ Barbeque Nation is very famous for barbeque<br>
 People can enjoy having food at Barbeque.
 
 **northwest missouri state university**
+
+---
+
+# Route to Barbeque Nation
+1. Take a public transport from airport.
+2. Get down in Gachibowli.
+9. Book a cab to Barbeque Nation.
+
