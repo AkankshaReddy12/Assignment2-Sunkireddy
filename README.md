@@ -31,6 +31,6 @@ People can enjoy having food at Barbeque.
 
 # Next Heading
 
-**The way to get started is to quit talking and begin doing.**     -*Walt Disney*
+>The way to get started is to quit talking and begin doing.     -*Walt Disney*
 
-**Life is what happens when you're busy making other plans.**       -*John Lennon*
+>Life is what happens when you're busy making other plans.       -*John Lennon*
