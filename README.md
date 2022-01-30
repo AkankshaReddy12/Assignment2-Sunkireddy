@@ -54,3 +54,35 @@ This table is related to sports that has sports name,location and amount that sh
 
 ---
 
+# Breadth-first Search
+
+>Breadth-first search (BFS) is an algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level. Extra memory, usually a queue, is needed to keep track of the child nodes that were encountered but not yet explored.
+<https://en.wikipedia.org/wiki/Breadth-first_search>
+
+```
+vector<vector<int>> adj;  // adjacency list representation
+int n; // number of nodes
+int s; // source vertex
+
+queue<int> q;
+vector<bool> used(n);
+vector<int> d(n), p(n);
+
+q.push(s);
+used[s] = true;
+p[s] = -1;
+while (!q.empty()) {
+    int v = q.front();
+    q.pop();
+    for (int u : adj[v]) {
+        if (!used[u]) {
+            used[u] = true;
+            q.push(u);
+            d[u] = d[v] + 1;
+            p[u] = v;
+        }
+    }
+}
+```
+<https://cp-algorithms.com/graph/breadth-first-search.html>
+
