@@ -29,6 +29,23 @@ People can enjoy having food at Barbeque.
 
 ---
 
+
+# Sports
+
+This table is related to sports that has sports name,location and amount that shoud be paid<br>Sports are going to held in the locations mentioned
+
+| Name   | location   | Amount |
+|------- |------------|--------|
+|Cricket |Hyderabad   |$100    |
+|Badminton|Chennai    |$50     |
+|Hockey   |Banglore   |$250    |
+|Tennis   |Kolkata    |$36     |
+
+
+
+
+
+
 # Next Heading
 
 >The way to get started is to quit talking and begin doing.     -*Walt Disney*
